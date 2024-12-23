@@ -1,0 +1,10 @@
+.ButtonDiv {
+  background: #f7f7f7;
+  display: flex;
+  gap: 24px;
+}
+
+.Alt {
+  display: flex;
+  margin-top: 15px;
+}

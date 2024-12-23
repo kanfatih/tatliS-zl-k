@@ -1,0 +1,103 @@
+.bgTop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50vh;
+  width: 100%;
+  z-index: -1;
+  background: #ff6f3b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bgBottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50vh;
+  width: 100%;
+  z-index: -1;
+  background: #c4d3fd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  border-radius: 24px;
+  width: 80%;
+  height: 65%;
+  margin: auto;
+}
+
+.left {
+  background: #fff;
+  width: 57%;
+  border-radius: 24px;
+}
+
+.right {
+  width: 43%;
+  background: #faf0d1;
+  border-radius: 0px 24px 24px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+  margin-top: 120px;
+  margin-bottom: 24px;
+}
+
+.account {
+  margin-top: 116px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.rightImage {
+  width: 60%;
+  border-radius: 12px;
+}
+
+.text {
+  width: 100%;
+  margin-left: 24px;
+  margin-bottom: 24px;
+  font-size: large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.textDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text2 {
+  margin-left: 24px;
+}

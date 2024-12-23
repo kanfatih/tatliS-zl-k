@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #f9fafd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.container {
+  background-color: white;
+  width: 45%;
+  height: 80%;
+  padding: 18px;
+  border-radius: 12px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.notific {
+  font-weight: bolder;
+}
+
+.name {
+  font-weight: bolder;
+}
+
+.box {
+  font-size: small;
+  background-color: #f7f9ff;
+  margin-top: 24px;
+  margin-bottom: 6px;
+  padding: 12px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.boxText {
+  display: flex;
+  margin-left: 12px;
+  font-size: 12px;
+  gap: 12px;
+}
+
+.redDot {
+  width: 8px;
+  height: 8px;
+  background-color: rgb(252, 80, 80);
+  border-radius: 50%;
+  display: inline-block;
+  align-items: center;
+  margin-left: 4px;
+}
+
+.messageNot {
+  border: 1px solid gainsboro;
+  padding: 18px;
+  margin-top: 12px;
+  width: 85%;
+}
+
+.box {
+  font-size: small;
+  background-color: #f7f9ff; /* Unread messages background color */
+  margin-top: 24px;
+  margin-bottom: 6px;
+  padding: 12px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.box.read {
+  background-color: white; /* Read messages background color */
+}
+
+.Button:hover {
+  background-color: #9fa5b7;
+}
+
+.Button {
+  padding: 4px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 6px;
+  cursor: pointer;
+}

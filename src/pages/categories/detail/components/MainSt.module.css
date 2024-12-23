@@ -1,0 +1,99 @@
+.DivBox {
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContentBox {
+  width: 75%;
+  height: 100%;
+  background-color: #f7f7f7;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(2, 1fr);
+  place-items: center;
+}
+
+.ContentDiv {
+  background-color: #fff;
+  height: 95%;
+  width: 80%;
+  border-radius: 12px;
+}
+
+.Image {
+  width: 100%;
+  height: 50%;
+  border-radius: 12px;
+}
+
+.ContentHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.UserName {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+.Link {
+  text-decoration: none;
+  color: orange;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.Image2 {
+  width: 100%;
+}
+
+.ButtonC {
+  color: rgb(24, 255, 3);
+  border: none;
+  background-color: #f7f7f7;
+  width: 50px;
+  height: 50px;
+}
+
+.Button {
+  border: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.category {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  background: #000000a5;
+  color: white;
+  padding: 6px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  scale: 0.8;
+  user-select: none;
+  cursor: pointer;
+  transition: all ease-in 0.1s;
+}
+
+.category:hover {
+  scale: 0.9;
+}
+
+.ContentDetail {
+  white-space: normal; /* Metni normal şekilde sarmaya izin verir */
+  word-wrap: break-word; /* Kelimelerin taşmasını engeller ve gerektiğinde kırar */
+  overflow-wrap: break-word; /* Uzun kelimeleri bölerek yeni satıra geçmesine izin verir */
+  display: block;
+  line-height: 1.6;
+}
